@@ -139,6 +139,34 @@ st.markdown("""
     .rate-pill strong {
         color: #F8FAFC;
     }
+    
+    /* =========================================
+       AJUSTES PARA CELULAR E TABLET (RESPONSIVO)
+       ========================================= */
+    @media (max-width: 768px) {
+        .block-container {
+            padding-top: 1rem !important;
+            padding-left: 0.5rem !important;
+            padding-right: 0.5rem !important;
+        }
+        .kpi-container {
+            padding: 12px 10px;
+        }
+        .kpi-title {
+            font-size: 0.65rem;
+        }
+        .kpi-value {
+            font-size: 1.3rem;
+        }
+        h1 {
+            font-size: 1.4rem !important;
+        }
+        .rate-pill {
+            font-size: 0.7rem;
+            padding: 3px 8px;
+            margin-bottom: 4px;
+        }
+    }
 </style>
 """, unsafe_allow_html=True)
 
